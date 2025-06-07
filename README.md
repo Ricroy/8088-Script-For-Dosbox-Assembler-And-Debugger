@@ -10,7 +10,7 @@
 
 ## Requisiti
 
-- Need to be used in #[https://www.dosbox.com/download.php?main=1]Dosbox
+- Need to be used in #[https://www.dosbox.com/download.php?main=1](Dosbox)
 - Need to have `as88` , `t88` and `CWSDPMI` in the same folder
 
 ## Usage
