@@ -21,7 +21,7 @@
 After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\your_OS\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\your_OS\bin\` to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
 
 ### Dosbox configuration
-After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder path of your operating system for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
+After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
 
 ## Usage
 
@@ -49,10 +49,10 @@ ast88 file_name
 ## Che cosa fare dopo?
 
 ### File essenziali
-Dopo aver scaricato i file `as88` , `t88` che si trovano dentro la cartella `\sco6\8088_tra\your_OS\bin`, copiate la cartella `8088_tra` dal suo archivio zip al vostro desktop o in qualsiasi directory, dopodiché copiate `CWSDPMI` dal suo archivio zip all'interno della cartella `8088_tra\your_OS\bin\` cosi da avere un backup del simulatore, fatto ciò copiate tutti i file presenti dentro la cartella `bin` nella vostra cartella di lavoro, per poi essere quasi pronti all'utilizzo del simulatore.
+Dopo aver scaricato i file `as88` , `t88` che si trovano dentro la cartella `\sco6\8088_tra\your_OS\bin`, copiate la cartella `8088_tra` dal suo archivio zip al vostro desktop o in qualsiasi directory, dopodiché copiate `CWSDPMI` dal suo archivio zip all'interno della cartella `8088_tra\your_OS\bin\` cosi da avere un backup del simulatore, fatto ciò copiate tutti i file presenti dentro la cartella `bin` nella vostra cartella corrente, per poi essere quasi pronti all'utilizzo del simulatore.
 
 ### Configurazione di Dosbox
-Dopo aver installato `Dosbox`, Aprite le `Dosbox Options`, scendete fino alla fine del file e sotto la linea commentata scrivete `Mount C` seguito dal percorso della vostra cartella di lavoro, per esempio in Windows: `C:\Users\dummy\Desktop\8088_tra\windows\` dopodiché una linea sotto `C:`, se volete accedere direttamente alla vostra cartella di lavoro una linea sotto scrivete `cd nome_cartella_di_lavoro`.
+Dopo aver installato `Dosbox`, Aprite le `Dosbox Options`, scendete fino alla fine del file e sotto la linea commentata scrivete `Mount C` seguito dal percorso della cartella del simulatore, per esempio in Windows: `C:\Users\dummy\Desktop\8088_tra\windows\` dopodiché una linea sotto `C:`, se volete accedere direttamente alla vostra cartella corrente una linea sotto scrivete `cd nome_cartella_corrente`.
 
 ## Utilizzo
 
