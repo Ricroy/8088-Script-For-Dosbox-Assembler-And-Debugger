@@ -1,4 +1,4 @@
-#English 🇬🇧
+# English 🇬🇧
 ## What is ast88?
 
 `ast88` is a simple script file for Dosbox that automates the process of assembly and execution of a assembly 8088 file with extension `.s` 
