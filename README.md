@@ -1,11 +1,9 @@
-# 8088-Dosbox-Assembler-And-Debugger
-Just a simple script for Dosbox version 0.74-3
-# ast88 - Script per assemblaggio e esecuzione con as88 e t88
+## What is ast88?
 
-## Descrizione
+`ast88` is a simple script file for Dosbox that automates the process of assembly and execution of a assembly 8088 file with extension `.s` 
 
-`ast88` è uno script batch per Windows che automatizza il processo di assemblaggio ed esecuzione di file sorgente `.s` tramite l'assemblatore `as88` e l'emulatore `t88`.
 
+## WIP
 Il processo prevede i seguenti passi:
 1. Verifica dell'esistenza del file `.s` specificato.
 2. Assemblaggio del file con `as88`.
@@ -18,7 +16,7 @@ Il processo prevede i seguenti passi:
 - `as88` installato e accessibile dal `PATH`
 - `t88` installato e accessibile dal `PATH`
 
-## Utilizzo
+## Usage
 
 ```bash
 ast88 nomefile
