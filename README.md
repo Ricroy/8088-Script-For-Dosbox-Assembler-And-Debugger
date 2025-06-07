@@ -38,7 +38,7 @@ ast88 file_name
 1. Verifica che un nome file sia stato passato come parametro.
 2. Controlla se il file con estensione `.s` esiste.
 3. Avvia l'assembler `as88` per assemblare il file.
-4. Se l'assemblaggio ha successo, rinomina il file generato `ASCIIFIL.$$$` in `file_name.$`.
+4. Se l'assemblaggio ha successo, rinomina il file generato `ASCIIFIL.$$$` in `nome_file.$`.
 5. Esegue il simulatore `t88` sul file risultante.
 
 ## Requisiti
