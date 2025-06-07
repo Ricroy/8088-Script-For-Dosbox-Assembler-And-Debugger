@@ -14,7 +14,7 @@
 - Need to have [as88, t88](http://media.pearsoncmg.com/ph/esm/ecs_tanenbaum_sco_6/tanenbaum_sco6.zip) and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
 
 ## What to do after?
-After Installing Dosbox, open Dosbox Options scroll down to the bottom and write `Mount C` followed by the folder path of your operating system for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want the folder you want to work in like `exercises8088`
+After Installing Dosbox, open Dosbox Options scroll down to the bottom and write `Mount C` followed by the folder path of your operating system for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want the folder you want to work in like ` cd exercises8088`
 ## Usage
 
 ```bash
