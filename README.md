@@ -7,7 +7,7 @@
 1. Verify if a name has been passed as a parameter
 2. Verify if a file with extension `.s` exists.
 3. Assembling of the file with `as88`.
-4. If the Assembling succeded, it will rename the generated output `ASCIIFIL.$$$` to `nomefile.$`.
+4. If the Assembling succeded, it will rename the generated output `ASCIIFIL.$$$` to `file_name.$`.
 5. Running the executable with `t88`.
 
 ## Requirements
