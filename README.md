@@ -11,7 +11,7 @@
 ## Requirements
 
 - Need to be used in [Dosbox](https://www.dosbox.com/download.php?main=1)
-- Need to have [as88,t88](http://media.pearsoncmg.com/ph/esm/ecs_tanenbaum_sco_6/tanenbaum_sco6.zip) and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
+- Need to have [as88, t88](http://media.pearsoncmg.com/ph/esm/ecs_tanenbaum_sco_6/tanenbaum_sco6.zip) and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
 
 ## Usage
 
