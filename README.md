@@ -1,8 +1,8 @@
-## What is ast88?
+# What is ast88?
 
 `ast88` is a simple script file for Dosbox that automates the process of assembly and execution of a assembly 8088 file with extension `.s` 
 
-## What does it do?
+# What does it do?
 1. Verifica dell'esistenza del file `.s` specificato.
 2. Assemblaggio del file con `as88`.
 3. Ridenominazione dell'output `ASCIIFIL.$$$` in `nomefile.$`.
