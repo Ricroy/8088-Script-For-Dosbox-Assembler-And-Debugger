@@ -11,7 +11,7 @@
 ## Requisiti
 
 - Need to be used in [Dosbox](https://www.dosbox.com/download.php?main=1)
-- Need to have `as88` , `t88` and `[CWSDPMI](https://tdold.teadrinker.net/mr/download.htm)` in the same folder
+- Need to have `as88` , `t88` and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
 
 ## Usage
 
