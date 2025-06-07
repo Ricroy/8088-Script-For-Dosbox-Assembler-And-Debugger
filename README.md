@@ -3,10 +3,10 @@
 `ast88` is a simple script file for Dosbox that automates the process of assembly and execution of a assembly 8088 file with extension `.s` 
 
 # What does it do?
-1. Verifica dell'esistenza del file `.s` specificato.
-2. Assemblaggio del file con `as88`.
-3. Ridenominazione dell'output `ASCIIFIL.$$$` in `nomefile.$`.
-4. Esecuzione del programma tramite `t88`.
+1. Verify if a file with extension `.s` exists.
+2. Assembling of the file with `as88`.
+3. Renaming of the output `ASCIIFIL.$$$` in `nomefile.$`.
+4. Running the executable with `t88`.
 
 # Requirements
 
@@ -24,4 +24,4 @@ open Dosbox Options, scroll down to the bottom and write `Mount C` followed by t
 ## Usage
 
 ```bash
-ast88 nomefile
+ast88 file_name
