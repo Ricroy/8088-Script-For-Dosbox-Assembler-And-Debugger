@@ -8,18 +8,18 @@
 3. Ridenominazione dell'output `ASCIIFIL.$$$` in `nomefile.$`.
 4. Esecuzione del programma tramite `t88`.
 
-## Requirements
+# Requirements
 
 - Need to be used in [Dosbox](https://www.dosbox.com/download.php?main=1)
-- Need to have [as88, t88](http://media.pearsoncmg.com/ph/esm/ecs_tanenbaum_sco_6/tanenbaum_sco6.zip) which is located inside the `tanenbaum_sco_6.zip` and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
+- Need to have [as88, t88](http://media.pearsoncmg.com/ph/esm/ecs_tanenbaum_sco_6/tanenbaum_sco6.zip) and [CWSDPMI](https://tdold.teadrinker.net/mr/download.htm) in the same folder
 
 ## What to do after?
-### Dosbox configuration
-open Dosbox Options, scroll down to the bottom and write `Mount C` followed by the folder path of your operating system for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your working folder add this in another new line `cd name_of_your_folder`.
 
 ### Essential files
-After downloading the `as88` , `t88` and `CWSDPMI` extract
+After downloading the `as88` , `t88` extract the `8088_tra` folder from the zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\your_OS\bin\` to have a backup, then copy the entirety of the folder in your work folder and you'll be ready in one more step
 
+### Dosbox configuration
+open Dosbox Options, scroll down to the bottom and write `Mount C` followed by the folder path of your operating system for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your working folder add this in another new line `cd name_of_your_folder`.
 
 ## Usage
 
