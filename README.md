@@ -28,7 +28,7 @@ After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and 
 ```bash
 ast88 file_name
 ```
-
+# -----------------------------------------------------------------------------
 # Italian 🇮🇹
 ## Cosa è ast88?
 
