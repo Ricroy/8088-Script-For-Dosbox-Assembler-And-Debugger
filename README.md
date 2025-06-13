@@ -4,14 +4,7 @@
 `ast88` is a simple script file for Dosbox that automates the process of assembly and execution of a assembly 8088 file with extension `.s` 
 
 ## What does it do?
-### Windows
-1. Verify if a name has been passed as a parameter
-2. Verify if a file with extension `.s` exists.
-3. Assembling of the file with `as88`.
-4. If the Assembling succeded, it will rename the generated output `ASCIIFIL.$$$` to `file_name.$`.
-5. Running the executable with `t88`.
 
-### MacOS
 1. Verify if a name has been passed as a parameter
 2. Verify if a file with extension `.s` exists.
 3. Assembling of the file with `as88`.
@@ -28,11 +21,12 @@
 After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\windows\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\windows\bin\` to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
 
 ## Dosbox configuration
+
 ### Windows
-After installing `Dosbox`, open `~\Library\Preferences` and find the file `Dosbox Preferences`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
+After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
 
 ### MacOS
-After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
+After installing `Dosbox`, open `~\Library\Preferences` and find the file `Dosbox Preferences`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
 
 ## Usage
 
@@ -47,14 +41,7 @@ ast88 file_name
 `ast88` è un semplice file script per Dosbox che automatizza il processo di assemblamento ed esecuzione di file assembly 8088 con estensione `.s` 
 
 ## Che cosa fa?
-### Windows
-1. Verifica che un nome file sia stato passato come parametro.
-2. Controlla se il file con estensione `.s` esiste.
-3. Avvia l'assembler `as88` per assemblare il file.
-4. Se l'assemblaggio ha successo, rinomina il file generato `ASCIIFIL.$$$` in `nome_file.$`.
-5. Esegue il simulatore `t88` sul file risultante.
 
-### MacOS
 1. Verifica che un nome file sia stato passato come parametro.
 2. Controlla se il file con estensione `.s` esiste.
 3. Avvia l'assembler `as88` per assemblare il file.
