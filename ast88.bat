@@ -12,13 +12,7 @@ REM Run as88 on file %file_name%.s
 echo Assembling %file_name%.s ...
 as88 %file_name%.s
 if errorlevel 1 goto assembly_error
-  
-REM renames ASCIIFIL.$$$ in %file_name%.$
-if not exist ASCIIFIL.$$$ goto ascfile_not_found
-  
-ren ASCIIFIL.$$$ %file_name%.$
-echo renaming ASCIIFIL.$$$ in %file_name%.%
-  
+
 REM Running t88
 echo t88 is starting...
 t88 %file_name%
@@ -31,10 +25,6 @@ goto end
   
 :assembly_error
   echo Error during assembly.
-  goto end
-  
-:ascfile_not_found
-  echo Error: file ASCIIFIL.$$$ not found, terminating execution.
   goto end
   
 :usage
