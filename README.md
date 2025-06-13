@@ -18,7 +18,7 @@
 ## What to do after?
 
 ### Essential files
-After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\your_OS\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\windows\bin\` to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
+After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\your_OS\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\your_OS\bin\` to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
 
 ### Dosbox configuration
 After installing `Dosbox`, open `Dosbox Options`, scroll down to the bottom and write under the commented line `Mount C` followed by the folder of your simulator for example in windows: `C:\Users\dummy\Desktop\8088_tra\windows\` then in a new line `C:` and if you want to access directly to your work folder add this in another new line `cd name_of_your_folder`.
