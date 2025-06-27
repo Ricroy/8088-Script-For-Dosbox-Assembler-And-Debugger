@@ -5,10 +5,12 @@
 
 ## What does it do?
 
+
 1. Verify if a name has been passed as a parameter
 2. Verify if a file with extension `.s` exists.
 3. Assembling of the file with `as88`.
-4. Running the executable with `t88`.
+4. If the Assembling succeded, it will rename the generated output `ASCIIFIL.$$$` to `file_name.$`.
+5. Running the executable with `t88`.
 
 ## Requirements
 
@@ -18,7 +20,7 @@
 ## What to do after?
 
 ### Essential files
-After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\windows\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\windows\bin\` and also replace the `as88.exe` file with `AS88.EXE` from this repo to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
+After downloading the `as88` , `t88` files which are inside the `\sco6\8088_tra\windows\bin` folder, copy the `8088_tra` folder from zip archive on your desktop or wherever you like, after that copy `CWSDPMI` from his zip archive in the folder `8088_tra\windows\bin\` to have a backup of the simulator, then copy all the files from the `bin` folder in your work folder and you'll be ready in one more step.
 
 ## Dosbox configuration
 
@@ -42,10 +44,12 @@ ast88 file_name
 
 ## Che cosa fa?
 
+
 1. Verifica che un nome file sia stato passato come parametro.
 2. Controlla se il file con estensione `.s` esiste.
 3. Avvia l'assembler `as88` per assemblare il file.
-4. Esegue il simulatore `t88` sul file risultante.
+4. Se l'assemblaggio ha successo, rinomina il file generato `ASCIIFIL.$$$` in `nome_file.$`.
+5. Esegue il simulatore `t88` sul file risultante.
 
 ## Requisiti
 
@@ -55,7 +59,7 @@ ast88 file_name
 ## Che cosa fare dopo?
 
 ## File essenziali
-Dopo aver scaricato i file `as88` , `t88` che si trovano dentro la cartella `\sco6\8088_tra\windows\bin`, copiate la cartella `8088_tra` dal suo archivio zip al vostro desktop o in qualsiasi directory, dopodiché copiate `CWSDPMI` dal suo archivio zip all'interno della cartella `8088_tra\windows\bin\` ed anche sostituire `as88.exe` con il file `AS88.EXE` da questa repo cosi da avere un backup del simulatore, fatto ciò copiate tutti i file presenti dentro la cartella `bin` nella vostra cartella corrente, per poi essere quasi pronti all'utilizzo del simulatore.
+Dopo aver scaricato i file `as88` , `t88` che si trovano dentro la cartella `\sco6\8088_tra\windows\bin`, copiate la cartella `8088_tra` dal suo archivio zip al vostro desktop o in qualsiasi directory, dopodiché copiate `CWSDPMI` dal suo archivio zip all'interno della cartella `8088_tra\windows\bin\` cosi da avere un backup del simulatore, fatto ciò copiate tutti i file presenti dentro la cartella `bin` nella vostra cartella corrente, per poi essere quasi pronti all'utilizzo del simulatore.
 
 ## Configurazione di Dosbox
 ### Windows
