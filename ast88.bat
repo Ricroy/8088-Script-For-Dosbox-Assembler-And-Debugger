@@ -13,6 +13,10 @@ echo Assembling %file_name%.s ...
 as88 %file_name%.s
 if errorlevel 1 goto assembly_error
 
+REM renames ASCIIFIL.$$$ in %file_name%.$
+if not exist ASCIIFIL.$$$ goto file_not_found_asc
+ren ASCIIFIL.$$$ %file_name%.$
+
 REM Running t88
 echo t88 is starting...
 t88 %file_name%
@@ -26,7 +30,11 @@ goto end
 :assembly_error
   echo Error during assembly.
   goto end
-  
+
+:file_not_found_asc
+echo Error: file ASCIIFIL.$$$ not found.
+goto end
+
 :usage
   echo Usage: ast88 file_name (without extension .s)
   echo Example: ast88 file_name
